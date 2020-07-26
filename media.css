@@ -1,0 +1,304 @@
+@media only screen and (max-width: 1200px) 
+{
+    #linkovi, #strelica_1, #strelica_2, #strelica_3, #kutija_slika, #kutija_vjerovanje, #kutija_poslanici, #kutija_vodic, #informacija, #kutija_info, #meni, #contact {
+      display: none;
+    }
+
+
+
+    body{
+        background-image: image-url("images/zlatno_platno.jpg") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        background-attachment: fixed;
+        overflow-x: hidden !important;
+    }
+
+    .kutija_poslanici {
+        position: absolute;
+        top: 60px;
+        width: 93%;
+        margin-left: 2%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 15px;
+        margin-bottom: 60px;
+          background-color: var(--boja-kocki);
+          color: #221e18;
+        
+          border-radius: 5px;
+        
+          -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+          -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+          box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+        
+          background-image: url("images/cosak_lijevi.png"), url("images/cosak_desni.png"), url("images/cosak_desni_dolje.png"), url("images/cosak_lijevi_dolje.png");
+          background-position: left top, right top, right bottom, left bottom;
+          background-size: 80px;
+          background-repeat: no-repeat;
+      }
+
+
+
+    #hamburger {
+        position: absolute;
+        width: 25%;
+        margin-left: 70%;
+        height: 30px;
+        border: solid 0px black;
+    
+        padding-right: 6%;
+        padding-top: 13px; 
+        text-align: right;
+    }
+
+    #logo_slika {
+        position: absolute;
+        width: 15%;
+    
+        top: 17%;
+        left: 42.5%;  
+    }
+
+    #citat {
+        position: absolute;
+        width: 96%;
+        height: 7%;
+        top: 50%;
+        left: 2%;
+        color: black;
+        border: solid 0px black;
+        text-align: center;
+        font-size: 24px;
+        font-style: italic;
+    
+    }
+
+    .sekcije {
+        position: unset;
+        width: 100%;
+        height: 100vh;
+  /*      min-height: 400px;   */
+        border: solid 0px black; 
+        margin: 0px 0px 0px 0px;
+    }
+
+    #contact {
+        position: unset;
+        width: 100%;
+        height: 0vh;
+        border: solid 0px black; 
+        margin: 0px 0px 0px 0px;
+    }
+
+    #contact_sehara {
+        width: 95%;
+        height: 75%;
+        top: 70px;
+        left: 2.5%;
+    
+    }
+
+    #contact_lijeva {
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        padding-top: 15px;
+    
+        top: 0%;
+        left: 0%;
+        border: solid 0px black;
+        background-color: #af9274;
+        color: black;
+        font-family: "Varela Round", sans-serif;
+        font-size: 14px;
+        min-height: 360px;
+    
+        border-radius: 15px 0px 0px 15px;
+    
+    
+    }
+    
+    .contact_lijeva p {
+        margin: 22px 19px 17px 19px;
+    }
+    
+    #contact_desna {
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        min-height: 360px;
+        padding-top: 15px;
+    
+        top: 0%;
+        left: 50%;
+        border: solid 0px black;
+        background-color: #946f4a;
+    
+        color: white;
+        overflow:hidden;
+    
+        font-size: 14px;
+       /*  color: rgba(128, 128, 128); */
+       border-radius: 0px 15px 15px 0px;
+    
+    }
+
+    #lungs {
+        position: unset;
+        width: 100%;
+        height: 0vh;
+        border: solid 0px black; 
+        margin: 0px 0px 0px 0px;
+    }
+
+    #subheading {
+        position: unset;
+        width: 100%;
+        height: 0vh;
+        border: solid 0px black; 
+        margin: 0px 0px 0px 0px;
+    }
+
+
+    .kutije {
+        position: absolute;
+        border: solid 0px gray;
+        color: rgb(51, 51, 51);
+        overflow:hidden;
+    }
+
+    .kutije p {
+        margin: 22px 19px 17px 19px;
+    }
+
+
+
+
+    h2 {
+        font-size: 12px;
+    }
+
+    
+
+
+
+    input[type="text"]{
+        width: 80%;
+        left: 10%;
+        border: solid 1px rgb(51, 51, 51);
+        margin: 1px 0px 5px 10%;
+        padding: 5px;
+    }
+
+
+
+
+    #vodic_vrh {
+        position: absolute;
+        top: 45px;
+        width: 100%;
+        height: 100px;
+        border: solid 0px black;
+        margin: 0px;
+           
+    }
+
+    #vodic_vrh img {
+        width: 28px;
+        height: 28px;;
+    }
+
+
+    
+    #sure {
+        position: unset;
+
+
+        padding: 5px;
+        width: 120px !important;
+        margin: 0px;
+  
+    }
+    
+    #pause {
+        position: absolute;
+        top: 30px;
+        left: 145px;
+   
+        margin: 0px 5px 0px 5px;
+    
+    }
+    
+    #slika_pdf {
+        position: absolute;
+        right: 80px;
+        margin-right: 0px;
+        top: 30px;
+        width: 30px;
+        height: 30px;
+      }
+      
+      #slika_mp3 {
+        position: absolute;
+        right: 40px;
+        margin-right: 0px;
+        top: 30px;
+        width: 30px;
+        height: 30px;
+      }
+
+
+    .wrapper1 {
+        display: grid;
+        grid-gap: 1em;
+        margin-top: 60px;
+        left: 0.5%;
+        grid-template-columns: 98%;
+        grid-template-rows: 490px;
+        grid-template-areas:
+         "top"
+         "content"
+         "sidebar"
+         "footer"
+      }
+
+
+      .top1 {
+        grid-area: top;
+        height: 420px;
+      }
+
+      .content1 {
+        grid-area: content;
+        background-color: var(--boja-kocki);
+        color: #221e18;
+        padding: 50px;
+        border-radius: 5px;
+        margin-left: 1.5%;
+        margin-bottom: 0px;
+      
+      }
+
+      .sidebar1 {
+        grid-area: sidebar;
+          margin-left: 1.5%;
+
+    }
+
+
+
+}
+
+
+
+/* ISPOD PISEMO MEDIJU ZA REZOLUCIJU IZMEDJU 600px DO 992px */
+/* ISPOD PISEMO MEDIJU ZA REZOLUCIJU IZMEDJU 600PX DO 992px */
+/* ISPOD PISEMO MEDIJU ZA REZOLUCIJU IZMEDJU 600PX DO 992px */
+/* ISPOD PISEMO MEDIJU ZA REZOLUCIJU IZMEDJU 600PX DO 992px */
+/* PROMJENJEN (SMANJEN JE %) LOGOTIPA, POVECANA SU SLOVA CITATA */
+
+
+

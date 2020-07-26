@@ -1,0 +1,136 @@
+#slides{
+	position: relative;
+	height: 100px;
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+.slide{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 1;
+
+	font-family: 'Dancing Script', cursive;
+
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
+}
+
+.showing{
+	opacity: 3;
+	z-index: 2;
+}
+
+
+
+.slide{
+	font-size: 20px;
+	padding: 15px;
+	box-sizing: border-box;
+	background: none;
+	color: rgb(0, 0, 0);
+
+}
+
+.slide:nth-of-type(1){
+	background: none;
+}
+.slide:nth-of-type(2){
+	background: none;
+}
+.slide:nth-of-type(3){
+	background: none;
+}
+.slide:nth-of-type(4){
+	background: none;
+}
+.slide:nth-of-type(5){
+	background: none;
+}
+
+#vodic_vrh {
+    position: absolute;
+    top: 39px;
+    width: 100%;
+    height: 60px;
+	border: solid 0px black;
+
+	margin-left: 2px;
+
+	background-color: var(--boja-kocki);
+
+
+
+	float: left;
+}
+
+#sure {
+    padding: 5px;
+	width: 150px;
+	margin: 10px 0px 10px 30px;
+	float:left; 
+}
+
+#pause {
+	float:left; 
+	margin: 12.5px 0px 10px 30px;
+
+}
+
+#vodic_vrh img {
+	float: right; 
+	margin-left: 0px;
+	margin: 10px 30px 10px 0px;
+
+}
+
+/* OVDJE STILIZUJEMO OPIS SURE */
+/* OVDJE STILIZUJEMO OPIS SURE */
+/* OVDJE STILIZUJEMO OPIS SURE */
+/* OVDJE STILIZUJEMO OPIS SURE */
+/* OVDJE STILIZUJEMO OPIS SURE */
+
+
+#opis_sure {
+	position: absolute;
+	width: 100%;
+	top: 200px;
+	height: 100%;
+
+	border: solid 1px black;
+}
+
+#opis_sure_header {
+	position: absolute;
+	top: 1px;
+	width: 100%;
+	height: 35px;
+	border: solid 1px red;
+	text-align: center;
+}
+
+#opis_sure_left {
+	position: absolute;
+	top: 37px;
+	left: 0px;
+	width: 77%;
+	border: solid 1px blue;
+	padding: 15px;
+}
+
+#opis_sure_right {
+	position: absolute;
+	top: 37px;
+	right: 0px;
+	width: 19%;
+	border: solid 1px blueviolet;
+	min-width: 180px;
+}
+

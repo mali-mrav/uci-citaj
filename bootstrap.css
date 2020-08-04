@@ -867,6 +867,15 @@ body {
   }
   .section h1 {
     margin: 20px 6px;
+    font-size: 20px;
+  }
+  .section p{
+    margin: 2px 2px 2px 2px;
+    width: 100%;
+  }
+  .section a{
+    margin-top: 5px;
+    padding: 3px;
   }
 }
 
